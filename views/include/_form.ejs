@@ -1,0 +1,29 @@
+<!-- form handling -->
+<form action="/api/book" method="POST" id="add_book">
+  <div class="new_book">
+    <div class="form-group">
+      <label for="Name" class="text-light">Name</label>
+      <input type="hidden" name="id" value="" />
+      <input type="text" name="name" placeholder="Enter book name" />
+    </div>
+
+    <div class="form-group">
+      <label for="Author" class="text-light">Author Name</label>
+      <input type="text" name="author" placeholder="Enter author name" />
+    </div>
+
+    <div class="form-group">
+      <label for="Gener" class="text-light">Gener</label>
+      <input type="text" name="gener" placeholder="Enter Gener" />
+    </div>
+
+    <div class="form-group">
+      <label for="Edition" class="text-light">Edition</label>
+      <input type="text" name="edition" placeholder="Enter Edition" />
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="btn text-dark update">Save</button>
+    </div>
+  </div>
+</form>
